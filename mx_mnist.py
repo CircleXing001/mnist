@@ -2,7 +2,7 @@ import mxnet as mx
 import logging
 import numpy as np
 logging.basicConfig(level=logging.DEBUG)
-#i use this model on different tools,so i use the same data source samply
+#i use this model on different tools,so i use the same data source simply
 from tensorflow.examples.tutorials.mnist import input_data  
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)  
 x_train, y_train = mnist.train.images,mnist.train.labels  
